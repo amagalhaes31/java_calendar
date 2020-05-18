@@ -1,5 +1,5 @@
 /**
- * 
+ * Data: 18/05/2020
  */
 package application;
 
@@ -23,7 +23,7 @@ public class Main {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
 		//Date d = Date.from(Instant.parse("2018-06-25T15:42:07Z"));
-		Date d = new Date(System.currentTimeMillis());
+		Date d = new Date(System.currentTimeMillis());		// Pega o valor da data e hora atual
 		
 		// Imprime o valor da variável "d"
 		System.out.println(sdf.format(d));
